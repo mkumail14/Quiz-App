@@ -1,0 +1,41 @@
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    border-top:5px solid white;
+    display: flex;
+    justify-content: center;
+}
+.titlesec{
+    background-color: rgb(7, 7, 7);
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 1000;
+    color: white;
+}
+.container{
+    color: black;
+    background-color: white;
+    border: 10px solid rgb(255, 254, 254);
+    border-radius: 10px;
+}
+
+button{
+    background-color: rgb(7, 7, 7);
+    border: 2px solid white;
+    color: white;
+}
+
+button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
