@@ -93,6 +93,7 @@ setInterval(function(){
 }, 1000);
 
 function nextQuestion() {
+    btn.disabled=true;
     var optionSelected = document.querySelector('input[name="radiobuttonoptions"]:checked');
     if (optionSelected) {
         var optionSelectedValue = optionSelected.value;
@@ -114,7 +115,7 @@ function nextQuestion() {
         document.getElementById('opt1').innerHTML = questions[questionN0].option1;
         document.getElementById('opt2').innerHTML = questions[questionN0].option2;
         document.getElementById('opt3').innerHTML = questions[questionN0].option3;
-        document.getElementById('sec').innerHTML = 1000; 
+        document.getElementById('sec').innerHTML = 10; 
     }
 
     // Clear the selected radio button
@@ -128,5 +129,4 @@ nextQuestion();
 
 function btnClick(){
     btn.disabled=false;
-    document.getElementById('btn').style.display=block;
 }
