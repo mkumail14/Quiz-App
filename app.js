@@ -46,7 +46,7 @@ function passwordVerifier(mail, pass) {
 }
 
 function opensignup(){
-    window.location.href = "signup.html"; 
+    window.location.href = "index.html"; 
 }
 function openlogin(){
     window.location.href = "login.html"; 
