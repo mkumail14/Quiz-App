@@ -53,35 +53,34 @@ function openlogin(){
 }
 var questions = [
     {
-        question: 'Who is Shaheer Father?',
-        option1: 'Kumail',
-        option2: 'Mohsin',
-        option3: 'Messi',
-        correctOption: "Kumail"
+        question: 'What is the capital of France?',
+        option1: 'Madrid',
+        option2: 'Paris',
+        option3: 'Berlin',
+        correctOption: "Paris"
     },
     {
-        question: 'Who is Mohsin Father?',
-        option1: 'Kumail',
-        option2: 'Shaheer',
-        option3: 'His Uni Friends',
-        correctOption: "Kumail"
+        question: 'Which planet is known as the Red Planet?',
+        option1: 'Earth',
+        option2: 'Mars',
+        option3: 'Jupiter',
+        correctOption: "Mars"
     },
     {
-        question: 'What is Shaheers Gender?',
-        option1: 'Male',
-        option2: 'Female',
-        option3: 'Trans',
-        correctOption: "Trans"
+        question: 'Who wrote "To Kill a Mockingbird"?',
+        option1: 'Harper Lee',
+        option2: 'Mark Twain',
+        option3: 'Ernest Hemingway',
+        correctOption: "Harper Lee"
     },
     {
-        question: 'What is Mohsins Gender?',
-        option1: 'Male',
-        option2: 'Female',
-        option3: 'Trans',
-        correctOption: "Female"
+        question: 'What is the largest mammal in the world?',
+        option1: 'Elephant',
+        option2: 'Blue Whale',
+        option3: 'Giraffe',
+        correctOption: "Blue Whale"
     }
 ];
-
 var score = 0;
 var questionN0 = -1;
 
